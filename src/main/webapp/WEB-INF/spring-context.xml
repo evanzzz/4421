@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+<!--<context:component-scan base-package="org.springframework.samples.petclinic.web"/>-->
+<!--<mvc:annotation-driven enable-matrix-variables="true"/>-->
+<!-- ... -->
+
+
+    <!--<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">-->
+        <!--<property name="host" value="mail.mycompany.com"/>-->
+    <!--</bean>-->
+
+    <!--&lt;!&ndash; this is a template message that we can pre-load with default state &ndash;&gt;-->
+    <!--<bean id="templateMessage" class="org.springframework.mail.SimpleMailMessage">-->
+        <!--<property name="from" value="customerservice@mycompany.com"/>-->
+        <!--<property name="subject" value="Your order"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="orderManager" class="com.mycompany.businessapp.support.SimpleOrderManager">-->
+        <!--<property name="mailSender" ref="mailSender"/>-->
+        <!--<property name="templateMessage" ref="templateMessage"/>-->
+    <!--</bean>-->
+
+</beans>
+
